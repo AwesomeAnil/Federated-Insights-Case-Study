@@ -1,6 +1,6 @@
-# Enterprise Airline Analytics – Semantic Model
+# Enterprise Airline Analytics – Governed Semantic Model
 
-This model integrates daily commercial demand, operational performance, and monthly financials into a conformed dimensional architecture supporting executive airline analytics.
+This model integrates commercial demand, operational performance, and financial metrics into a governed enterprise semantic layer with certified KPI definitions.
 
 ```mermaid
 erDiagram
@@ -15,10 +15,13 @@ erDiagram
 
     Dim_FareClass ||--o{ Fact_Bookings : fare
     Dim_CustomerSegment ||--o{ Fact_Bookings : segment
-
     Dim_Aircraft ||--o{ Fact_Flights : aircraft
 
     Dim_Route ||--o{ Dim_Airport : origin_destination
+
+    Dim_KPI_Definitions ||--o{ Fact_Bookings : certifies_metrics
+    Dim_KPI_Definitions ||--o{ Fact_Flights : certifies_metrics
+    Dim_KPI_Definitions ||--o{ Fact_Financials : certifies_metrics
 
 
     Dim_Date {
@@ -55,6 +58,14 @@ erDiagram
         string Airport_Code PK
         string City
         string Country
+    }
+
+    Dim_KPI_Definitions {
+        string KPI_Name PK
+        string Business_Definition
+        string Calculation_Logic
+        string Owner_Function
+        string Certified_Flag
     }
 
     Fact_Bookings {

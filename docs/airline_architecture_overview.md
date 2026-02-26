@@ -1,38 +1,40 @@
-# Enterprise Airline Analytics – Architecture Overview
+# Enterprise Airline Analytics – CoE Architecture
 
-This architecture demonstrates integration of commercial demand, operational execution, and financial performance into a governed semantic analytics layer.
+This architecture demonstrates how a centralized Analytics Center of Excellence (CoE) enables a federated insights community through governed semantic models and certified KPIs.
 
 ```mermaid
 flowchart LR
 
-    subgraph Source Systems
+    subgraph Operational Systems
         A1[Booking System]
-        A2[Flight Operations System]
-        A3[Financial System]
+        A2[Flight Operations]
+        A3[Financial Systems]
     end
 
-    subgraph Data Layer
+    subgraph Data Integration Layer
         B1[Fact_Bookings]
         B2[Fact_Flights]
         B3[Fact_Financials]
-        D1[Dim_Date]
-        D2[Dim_Route]
-        D3[Dim_FareClass]
-        D4[Dim_CustomerSegment]
-        D5[Dim_Aircraft]
+        D1[Conformed Dimensions]
     end
 
     subgraph Semantic Layer
-        S1[Conformed Dimensions]
-        S2[Reusable KPI Measures]
-        S3[Certified Metrics]
+        S1[Reusable Data Models]
+        S2[Standardized KPI Measures]
+        S3[Certified KPI Registry]
     end
 
-    subgraph Analytics Layer
-        R1[Executive Dashboard]
-        R2[Route Performance Analysis]
-        R3[Operational Monitoring]
-        R4[Profitability & Margin Analysis]
+    subgraph Governance Layer
+        G1[Dim_KPI_Definitions]
+        G2[Metric Ownership Framework]
+        G3[Quality & Certification Controls]
+    end
+
+    subgraph Federated Analytics Community
+        F1[Commercial Analytics]
+        F2[Operations Analytics]
+        F3[Finance Analytics]
+        F4[Executive Decision Support]
     end
 
     A1 --> B1
@@ -42,11 +44,16 @@ flowchart LR
     B1 --> S1
     B2 --> S1
     B3 --> S1
+    D1 --> S1
 
     S1 --> S2
     S2 --> S3
 
-    S3 --> R1
-    S3 --> R2
-    S3 --> R3
-    S3 --> R4
+    G1 --> S3
+    G2 --> S3
+    G3 --> S3
+
+    S3 --> F1
+    S3 --> F2
+    S3 --> F3
+    S3 --> F4
