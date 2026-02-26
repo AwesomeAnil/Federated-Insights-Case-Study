@@ -1,0 +1,22 @@
+KPI_ID,KPI_Name,KPI_Category,Business_Definition,Calculation_Logic,Fact_Source,Owner_Function,Grain,Certified_Flag,Certification_Status,Version
+KPI_001,Total Revenue,Executive,Total passenger and ancillary revenue generated,SUM(Fact_Bookings[Total_Revenue]),Fact_Bookings,Commercial,Daily,Yes,Certified,1.0
+KPI_002,Total Operating Cost,Executive,"Total operational cost including fuel, staff and airport fees",SUM(Fact_Financials[Total_Cost]),Fact_Financials,Finance,Monthly,Yes,Certified,1.0
+KPI_003,Route Profit,Executive,Revenue minus total operating cost,[Total Revenue] - [Total Operating Cost],Composite,Finance,Monthly,Yes,Certified,1.0
+KPI_004,Profit Margin %,Executive,Route profit divided by total revenue,Route Profit / Total Revenue,Composite,Finance,Monthly,Yes,Certified,1.0
+KPI_005,Total Passengers,Executive,Total tickets sold across routes,SUM(Fact_Bookings[Tickets_Sold]),Fact_Bookings,Commercial,Daily,Yes,Certified,1.0
+KPI_006,Yield per Passenger,Commercial,Revenue per ticket sold,Total Revenue / Total Passengers,Fact_Bookings,Commercial,Daily,Yes,Certified,1.0
+KPI_007,Premium Cabin Revenue %,Commercial,Revenue share from premium cabin classes,Premium Revenue / Total Revenue,Fact_Bookings,Commercial,Daily,Yes,Certified,1.0
+KPI_008,Revenue per Flight,Commercial,Average revenue generated per flight,Total Revenue / Distinct Flights,Composite,Commercial,Daily,Yes,Certified,1.0
+KPI_009,Ancillary Revenue %,Commercial,Percentage of revenue from ancillary services,Ancillary Revenue / Total Revenue,Fact_Bookings,Commercial,Daily,Yes,Certified,1.0
+KPI_010,Load Factor %,Operational,Seats sold divided by total seat capacity,Seats_Sold / Seats_Capacity,Fact_Flights,Operations,Daily,Yes,Certified,1.0
+KPI_011,On-Time Departure %,Operational,Flights departing within 15 minutes of schedule,On-Time Flights / Total Flights,Fact_Flights,Operations,Daily,Yes,Certified,1.0
+KPI_012,Cancellation Rate %,Operational,Cancelled flights divided by total flights,Cancelled Flights / Total Flights,Fact_Flights,Operations,Daily,Yes,Certified,1.0
+KPI_013,Fuel Cost Ratio,Financial,Fuel cost as percentage of total operating cost,Fuel_Cost / Total_Cost,Fact_Financials,Finance,Monthly,Yes,Certified,1.0
+KPI_014,Cost per Route,Financial,Average monthly operating cost per route,Total_Cost by Route,Fact_Financials,Finance,Monthly,Yes,Certified,1.0
+KPI_015,Certified KPI Count,Governance,Total number of KPIs marked as certified,COUNT where Certified_Flag = Yes,Dim_KPI_Definitions,CoE,Metadata,Yes,Certified,1.0
+KPI_016,% Certified KPIs,Governance,Percentage of KPIs certified,Certified KPI Count / Total KPIs,Dim_KPI_Definitions,CoE,Metadata,Yes,Certified,1.0
+KPI_017,Revenue Forecast Accuracy %,Transformational,Accuracy of revenue forecast relative to actuals,1 - ABS((Actual Revenue - Forecast Revenue) / Forecast Revenue),Fact_Bookings,CoE,Monthly,Yes,Certified,1.0
+KPI_018,Ticket Forecast Accuracy %,Transformational,Accuracy of ticket forecast relative to actuals,1 - ABS((Actual Tickets - Forecast Tickets) / Forecast Tickets),Fact_Bookings,CoE,Monthly,Yes,Certified,1.0
+KPI_019,Advance Booking Window (Days),Transformational,Average number of days between booking and flight date,AVERAGE(Booking_Lead_Days),Fact_Bookings,Commercial,Daily,Yes,Certified,1.0
+KPI_020,Demand Momentum Index,Transformational,3-month rolling growth rate in tickets sold,Rolling 3M Tickets vs Previous 3M Tickets,Fact_Bookings,Commercial,Monthly,Yes,Certified,1.0
+KPI_021,Route Risk Score,Transformational,"Composite score combining load volatility, margin volatility and cancellation rate",Standardized composite risk index,Composite,CoE,Monthly,No,Draft,1.0
