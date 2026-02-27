@@ -33,18 +33,16 @@ The dashboard architecture reflects this decision hierarchy.
 ```mermaid
 flowchart TB
 
-    A[Executive KPI Strip<br/>Revenue | Profit | Margin | Forecast Accuracy | Demand Momentum]
-
-    B[Financial Performance Trends<br/>Revenue vs Cost<br/>Profit Margin Trend]
-
-    C[Demand & Operational Signals<br/>Demand Momentum<br/>Load Factor<br/>On-Time %<br/>Cancellation Rate]
-
-    D[Risk & Exposure Panel<br/>Route Risk Score<br/>Fuel Cost Ratio<br/>Route Profitability Snapshot]
+    A[Executive KPI Strip]
+    B[Financial Performance Trends]
+    C[Demand and Operational Signals]
+    D[Risk and Exposure Panel]
 
     A --> B
     B --> C
     C --> D
 ```
+
 
 ### Architecture Logic
 
