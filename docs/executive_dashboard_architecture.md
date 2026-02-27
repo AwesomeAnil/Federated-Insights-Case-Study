@@ -34,14 +34,39 @@ The dashboard architecture reflects this decision hierarchy.
 flowchart TB
 
     A[Executive KPI Strip]
+    A1[Revenue | Profit | Margin | Forecast Accuracy | Demand Momentum]
+
     B[Financial Performance Trends]
+    B1[Revenue vs Cost Trend]
+    B2[Profit Margin Trend]
+
     C[Demand and Operational Signals]
+    C1[Demand Momentum]
+    C2[Load Factor]
+    C3[On Time Performance]
+    C4[Cancellation Rate]
+
     D[Risk and Exposure Panel]
+    D1[Route Risk Score]
+    D2[Fuel Cost Ratio]
+    D3[Route Profitability Snapshot]
 
     A --> B
     B --> C
     C --> D
+
+    A --> A1
+    B --> B1
+    B --> B2
+    C --> C1
+    C --> C2
+    C --> C3
+    C --> C4
+    D --> D1
+    D --> D2
+    D --> D3
 ```
+
 
 
 ### Architecture Logic
