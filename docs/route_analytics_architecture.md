@@ -33,29 +33,29 @@ This page answers:
 ## 3. Page Architecture
 
 ```mermaid
-flowchart TB
+flowchart LR
 
     A[Route Health Snapshot]
-    A1[Total Revenue]
+    A1[Revenue]
     A2[Profit Margin]
     A3[Load Factor]
     A4[Route Risk Score]
     A5[Cost per Route]
 
-    B[Revenue and Margin Trend]
+    B[Financial Trajectory]
     B1[Revenue Trend]
     B2[Margin Trend]
 
-    C[Performance Quadrant]
-    C1[Load Factor Axis]
-    C2[Profit Margin Axis]
-    C3[Revenue Bubble Size]
-    C4[Route Positioning Logic]
+    C[Comparative Positioning]
+    C1[Load Axis]
+    C2[Margin Axis]
+    C3[Revenue Scale]
+    C4[Route Classification Logic]
 
-    D[Risk and Volatility Breakdown]
+    D[Volatility Drivers]
     D1[Margin Volatility]
-    D2[Load Volatility]
-    D3[Cancellation Impact]
+    D2[Demand Volatility]
+    D3[Operational Disruption]
 
     A --> B
     B --> C
