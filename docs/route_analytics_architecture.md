@@ -36,14 +36,51 @@ This page answers:
 flowchart TB
 
     A[Route Health Snapshot]
+    A1[Total Revenue]
+    A2[Profit Margin]
+    A3[Load Factor]
+    A4[Route Risk Score]
+    A5[Cost per Route]
+
     B[Revenue and Margin Trend]
+    B1[Revenue Trend]
+    B2[Margin Trend]
+
     C[Performance Quadrant]
+    C1[Load Factor Axis]
+    C2[Profit Margin Axis]
+    C3[Revenue Bubble Size]
+    C4[Route Positioning Logic]
+
     D[Risk and Volatility Breakdown]
+    D1[Margin Volatility]
+    D2[Load Volatility]
+    D3[Cancellation Impact]
 
     A --> B
     B --> C
     C --> D
+
+    A --> A1
+    A --> A2
+    A --> A3
+    A --> A4
+    A --> A5
+
+    B --> B1
+    B --> B2
+
+    C --> C1
+    C --> C2
+    C --> C3
+    C --> C4
+
+    D --> D1
+    D --> D2
+    D --> D3
 ```
+
+
 
 ### Architecture Logic
 
