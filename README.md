@@ -1,3 +1,4 @@
+![Project Banner](docs/Federated Insights banner.png)
 # Federated Enterprise Analytics — Operating Model
 
 
