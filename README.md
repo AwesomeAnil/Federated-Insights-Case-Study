@@ -1,8 +1,19 @@
 ![Project Banner](docs/Federated_Insights_banner.png)
-# Federated Enterprise Analytics — Operating Model
+# ✈️ Federated Enterprise Analytics — Operating Model
 
+![MS Fabric](https://img.shields.io/badge/MS_Fabric-Analytics-blue)
+![Cloud](https://img.shields.io/badge/Cloud-Architecture-blue)
+![Power BI](https://img.shields.io/badge/PowerBI-Semantic_Model-yellow)
+![Enterprise Analytics](https://img.shields.io/badge/Enterprise-Analytics-darkgreen)
+![Federated Insights](https://img.shields.io/badge/Federated-Insights-purple)
+![Operating Model](https://img.shields.io/badge/Operating-Model-grey)
+![Documentation](https://img.shields.io/badge/Documentation-Architecture-lightgrey)
+![Centre of Excellence](https://img.shields.io/badge/CoE-Analytics-blueviolet)
+![Governance](https://img.shields.io/badge/Governance-KPI_Control-red)
+![KPI Registry](https://img.shields.io/badge/KPI-Registry-orange)
+![Metric Definitions](https://img.shields.io/badge/Metric-Definitions-teal)
 
-## Why Federated Insights?
+## 🧭 Why Federated Insights?
 
 Modern enterprises do not suffer from a lack of dashboards.  
 They suffer from:
@@ -31,7 +42,7 @@ This repository demonstrates how a Centre of Excellence (CoE) can implement a fe
 
 ---
 
-## Federated Insight Model (Structural View)
+## 🏗️ Federated Insight Model (Structural View)
 
 This model separates performance domains while anchoring them to centralized governance and a certified metric foundation.
 
@@ -57,7 +68,7 @@ flowchart TB
     GOV --> REG
 ```
 
-### Board-Level Signal
+### 📢 Board-Level Signal
 
 - Insight is layered and domain-specific  
 - Governance is explicit and structured  
@@ -71,7 +82,7 @@ It is a governed analytics ecosystem.
 
 ---
 
-## Governance Overlay Model
+## 🛡️ Governance Overlay Model
 
 Governance does not sit at the end of reporting.  
 It operates across all insight layers simultaneously.
@@ -98,7 +109,7 @@ flowchart LR
     REG --> GOV
 ```
 
-### Board-Level Signal
+### 📢 Board-Level Signal
 
 - Governance is cross-cutting, not isolated  
 - Every domain operates under certified KPI control  
@@ -111,7 +122,7 @@ This model reflects how mature Analytics CoEs operate in large enterprises.
 
 ---
 
-## Insight Consumption Flow
+## 🔄 Insight Consumption Flow
 
 Federated insights follow a structured decision logic from enterprise health to operational control — validated by governance.
 
@@ -134,7 +145,7 @@ flowchart LR
     OPS --> GOV
 ```
 
-### Board-Level Signal
+### 📢 Board-Level Signal
 
 - Executive questions drive structured diagnostic layers  
 - Insights move from strategic to operational depth  
