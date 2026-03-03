@@ -138,6 +138,16 @@ The structure reflects a simulated internal CoE repository with controlled docum
 
 ---
 
+## Live Power BI Report  
+
+The full federated analytics & insights report is published in Microsoft Fabric.
+
+🔗 View Interactive Report: [[Power BI Report Link](<iframe title="Airline Insights" width="800" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhY2EtNzZhMy00N2U0LWFlZDAtMGE1NmFjMTliNTFhIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>)]
+
+
+
+---
+
 ### 📢 Executive & Strategic Narrative
 
 - **Executive 1-Pager**  
