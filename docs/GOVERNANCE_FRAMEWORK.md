@@ -293,7 +293,114 @@ It enables:
 
 ---
 
-## 💡 13. Closing Perspective
+
+## 🧠 13. Semantic Model Discipline
+
+In federated environments, governance is not only about definitions — it is also about structural integrity.
+
+Each KPI must clearly declare:
+
+Calculation Layer (Fact / Derived / Composite)
+
+Declared Grain (Daily / Monthly / Composite)
+
+This ensures:
+
+Fact-level measures are not confused with derived ratios
+
+Composite KPIs are transparent about dependencies
+
+Daily and Monthly metrics are not blended incorrectly
+
+Cross-domain aggregation errors are avoided
+
+Semantic discipline prevents silent distortion of meaning.
+
+Without structural clarity, even well-defined KPIs can produce misleading insights.
+
+Governance therefore extends beyond wording — it includes modeling discipline.
+
+---
+
+
+## 🛠️ 14. Data Quality Model
+
+Governance is incomplete without quality visibility.
+
+This framework recognizes four practical quality dimensions:
+
+✔ Accuracy
+
+Calculation logic reflects approved business definition.
+
+✔ Completeness
+
+Required data is present and not structurally missing.
+
+✔ Timeliness
+
+Data refresh aligns with declared SLA.
+
+✔ Consistency
+
+Definitions remain aligned across domains.
+
+Governed KPIs must:
+
+Declare whether quality rules are defined
+
+Expose freshness status (On-Time / Delayed)
+
+Surface known data limitations where applicable
+
+The objective is not perfection.
+
+The objective is transparency.
+
+Quality governance ensures that decision-makers understand the reliability context of the metric they are using.
+
+
+---
+
+
+## 📊 15. Governance Maturity Levels
+
+Governance evolves in stages.
+Not all organizations operate at the same level of control.
+
+This framework reflects a progression model:
+
+🟢 Level 1 — Ad-Hoc
+
+KPIs exist in reports without documented ownership or definition control.
+
+🟡 Level 2 — Standardized
+
+Definitions are documented but not formally certified.
+
+🟠 Level 3 — Certified
+
+KPI Owners and Data Stewards are assigned.
+Certification lifecycle is enforced.
+
+🔵 Level 4 — Federated & Governed
+
+Cross-domain alignment is actively managed.
+Grain discipline is enforced.
+Quality visibility is embedded.
+SLA compliance is monitored.
+Registry integrity is maintained centrally.
+
+This repository models Level 4 governance maturity within a federated analytics environment.
+
+It demonstrates how autonomy and control can coexist without sacrificing clarity.
+
+
+---
+
+
+
+## 💡 16. Closing Perspective
 
 Governance in federated analytics is not restrictive.
 
