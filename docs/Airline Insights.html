@@ -1,14 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+<meta charset="UTF-8">
 <title>Enterprise Airline Analytics</title>
+
+<style>
+
+body {
+    margin:0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color:#f4f6f8;
+}
+
+/* Top banner */
+.banner {
+    background: linear-gradient(90deg,#0b3c5d,#1f77b4);
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+.banner h1 {
+    margin:0;
+    font-size:36px;
+}
+
+.banner p {
+    margin-top:10px;
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* Content container */
+.container {
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+}
+
+/* Section header */
+.section-title {
+    font-size:28px;
+    margin-bottom:10px;
+    color:#1a1a1a;
+}
+
+/* Description text */
+.description {
+    color:#555;
+    font-size:16px;
+    margin-bottom:25px;
+}
+
+/* Report frame */
+.report-frame {
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Enterprise Airline Analytics Dashboard</h1>
+<div class="banner">
+<h1>Enterprise Airline Analytics</h1>
+<p>Federated Analytics Operating Model | Governance-Driven Insight</p>
+</div>
 
-<iframe title="Airline Insights" width="800" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhY2EtNzZhMy00N2U0LWFlZDAtMGE1NmFjMTliNTFhIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
+<div class="container">
+
+<h2 class="section-title">Executive Commercial Dashboard</h2>
+
+<p class="description">
+This interactive dashboard simulates how an Airline Analytics Centre of Excellence
+delivers executive insight across Commercial, Network and Finance domains.
+The report demonstrates governance-aligned KPIs, federated semantic modeling,
+and executive performance monitoring.
+</p>
+
+<div class="report-frame">
+
+
+<iframe 
+  title="Airline Analytics & Insights" 
+  width="800" 
+  height="836" 
+  src="https://app.powerbi.com/view?r=eyJrIjoiN2FlZTJhY2EtNzZhMy00N2U0LWFlZDAtMGE1NmFjMTliNTFhIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" 
+  frameborder="0" 
+  allowFullScreen="true">
+</iframe>
+
+</div>
+
+</div>
 
 </body>
+
 </html>
