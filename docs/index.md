@@ -20,6 +20,8 @@
 ![Documentation](https://img.shields.io/badge/Documentation-Structured_Framework-lightgrey)
 ## 🏛️ Governance-Driven Insight Operating Model
 
+A governance-driven analytics blueprint demonstrating how a Federated Analytics Centre of Excellence enables trusted, scalable decision intelligence across airline domains.
+
 ---
 
 ## 📌 Overview
