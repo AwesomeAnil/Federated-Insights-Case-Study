@@ -1,0 +1,56 @@
+title: Enterprise Airline Analytics – Federated Insights Operating Model
+
+description: >
+  A governance-driven enterprise analytics blueprint demonstrating how a 
+  Federated Analytics Centre of Excellence enables trusted, scalable insights 
+  across Executive, Commercial, Network, and Operations domains. 
+  The project showcases semantic modeling, KPI lifecycle governance, 
+  data quality frameworks, and Microsoft Fabric / Power BI implementation 
+  patterns for enterprise decision intelligence.
+
+theme: jekyll-theme-slate
+
+# Author information
+author:
+  name: Anil Jacob
+  role: Analytics & Governance Leader
+  tagline: Microsoft Fabric | Semantic Modeling | Enterprise BI Strategy
+  github: https://github.com/YOUR_GITHUB_USERNAME
+  linkedin: https://www.linkedin.com/in/YOUR_LINKEDIN
+
+# Site metadata
+url: https://YOUR_GITHUB_USERNAME.github.io
+baseurl: /YOUR_REPOSITORY_NAME
+
+# Repository reference
+repository: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+
+# GitHub integration
+github:
+  is_project_page: true
+  repository_url: https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+
+# Markdown engine
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Enable Mermaid diagrams (GitHub supports this natively)
+mermaid:
+  enabled: true
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO metadata
+twitter:
+  username: YOUR_TWITTER_HANDLE
+
+social:
+  name: Anil Jacob
+  links:
+    - https://github.com/YOUR_GITHUB_USERNAME
+    - https://www.linkedin.com/in/YOUR_LINKEDIN
