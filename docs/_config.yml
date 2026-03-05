@@ -1,0 +1,7 @@
+title: Enterprise Airline Analytics – Federated Insights Operating Model
+
+theme: jekyll-theme-slate
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
