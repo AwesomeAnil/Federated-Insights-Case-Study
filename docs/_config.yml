@@ -5,6 +5,8 @@ description: >
   federated analytics centre of excellence delivers trusted insights
   across executive, commercial, network, and operations domains.
 
+theme: jekyll-theme-slate
+
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
