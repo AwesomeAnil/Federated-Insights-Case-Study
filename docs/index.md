@@ -1,6 +1,6 @@
 ![Banner](/Federated_Insights_banner.png)
 
-# ✈️ Federated Enterprise Analytics  
+# ✈️ Enterprise Analytics  
 ![MS Fabric](https://img.shields.io/badge/MS_Fabric-Lakehouse-blue)
 ![Power BI](https://img.shields.io/badge/PowerBI-Semantic_Model-yellow)
 ![Delta Tables](https://img.shields.io/badge/Delta-ACID_Persistence-informational)
@@ -18,6 +18,7 @@
 ![Lifecycle Governance](https://img.shields.io/badge/Lifecycle-Draft_Review_Certified-darkred)
 ![Executive Reporting](https://img.shields.io/badge/Executive-Governed_Reporting-black)
 ![Documentation](https://img.shields.io/badge/Documentation-Structured_Framework-lightgrey)
+
 ## 🏛️ Governance-Driven Insight Operating Model
 
 A governance-driven analytics blueprint demonstrating how a Federated Analytics Centre of Excellence enables trusted, scalable decision intelligence across airline domains.
