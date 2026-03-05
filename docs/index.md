@@ -158,10 +158,10 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 
 ### 📢 Executive & Strategic Narrative
 
-- **Executive 1-Pager**  
+- **[Executive 1-Pager](EXEC_1PAGER.md)**  
   Board-ready summary of federated governance model.
 
-- **Presentation**  
+- **[Presentation](PRESENTATION.md)**  
   Structured narrative walkthrough of the operating model.
 
 
@@ -170,16 +170,16 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 
 ### 🧠 Architecture & Semantic Modeling
 
-- **Airline Architecture Overview**  
+- **[Airline Architecture Overview](airline_architecture_overview.md)**  
   Domain-layered insight model.
 
-- **Airline Semantic Model**  
+- **[Airline Semantic Model](airline_semantic_model.md)**  
   Fact / Derived / Composite logic and modeling discipline.
 
-- **Dashboard Architecture Overview**  
+- **[Dashboard Architecture Overview](dashboard_architecture_overview.md)**  
   Federated insight layering across executive and domain reports.
 
-- **Measure Folder Architecture**  
+- **[Measure Folder Architecture](measure_folder_architecture.md)**  
   Organized semantic measure structuring.
 
 
@@ -188,11 +188,11 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 
 ### 📊 Report Design Documentation
 
-- Executive Dashboard Design  
-- Route Analytics Report Design  
-- Operational Insights Report Design  
-- Customer Segmentation Report Design  
-- KPI Governance Report Design  
+- [Executive Dashboard Design](executive_dashboard_design.md)
+- [Route Analytics Report Design](route_analytics_report_design.md)  
+- [Operational Insights Report Design](operational_insights_report_design.md)
+- [Customer Segmentation Report Design](customer_segmentation_report_design.md)
+- [KPI Governance Report Design](kpi_governance_report_design.md) 
 
 Each document outlines structural intent, KPI logic, and governance enforcement at report level.
 
@@ -214,25 +214,25 @@ Consolidated output of the federated insight model.
 
 ### 🔹 Quick Executive Review (5 Minutes)
 
-1. Executive 1-Pager  
-2. Presentation  
-3. Governance Operating Model (Sections 1–5)  
+1. [Executive 1-Pager](EXEC_1PAGER.md)  
+2. [Presentation](PRESENTATION.md)  
+3. [Governance Operating Model (Sections 1–5)](GOVERNANCE_OPERATING_MODEL.md)  
 
 ---
 
 ### 🔹 Governance Deep Dive
 
-1. Governance Operating Model  
-2. Contributing Guide  
-3. Configuration Guide  
+1. [Governance Operating Model](GOVERNANCE_OPERATING_MODEL.md)  
+2. [Contributing Guide](Contributing.md)  
+3. [Configuration Guide](Configuration.md)  
 
 ---
 
 ### 🔹 Technical Architecture Review
 
-1. Configuration Guide  
-2. Airline Semantic Model  
-3. Dashboard Architecture Overview  
+1. [Configuration Guide](Configuration.md)  
+2. [Airline Semantic Model](airline_semantic_model.md)  
+3. [Dashboard Architecture Overview](dashboard_architecture_overview.md)  
 
 
 
