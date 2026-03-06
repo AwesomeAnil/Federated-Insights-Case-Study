@@ -4,12 +4,22 @@
 
 ## Federated Analytics & Governance Operating Model
 
+![MS Fabric](https://img.shields.io/badge/MS_Fabric-Analytics-blue)
 ![MS Fabric](https://img.shields.io/badge/MS_Fabric-Lakehouse-blue)
+![Cloud](https://img.shields.io/badge/Cloud-Architecture-blue)
 ![Power BI](https://img.shields.io/badge/PowerBI-Semantic_Model-yellow)
 ![Delta Tables](https://img.shields.io/badge/Delta-ACID_Persistence-informational)
-![Governance](https://img.shields.io/badge/Governance-KPI_Control-red)
+![Enterprise Analytics](https://img.shields.io/badge/Enterprise-Analytics-darkgreen)
+![Federated Insights](https://img.shields.io/badge/Federated-Insights-purple)
 ![Federated Analytics](https://img.shields.io/badge/Federated-Operating_Model-purple)
 ![Analytics CoE](https://img.shields.io/badge/Analytics-Centre_of_Excellence-blueviolet)
+![Documentation](https://img.shields.io/badge/Documentation-Architecture-lightgrey)
+![Centre of Excellence](https://img.shields.io/badge/CoE-Analytics-blueviolet)
+![Governance](https://img.shields.io/badge/Governance-KPI_Control-red)
+![KPI Registry](https://img.shields.io/badge/KPI-Registry-orange)
+![Metric Definitions](https://img.shields.io/badge/Metric-Definitions-teal)
+
+
 
 ---
 
@@ -100,7 +110,7 @@ A fully interactive Power BI dashboard is available via GitHub Pages.
 
 **View the dashboard:**
 
-👉 https://awesomeanil.github.io/Federated-Insights-Case-Study/
+👉 https://awesomeanil.github.io/Federated-Insights-Case-Study/Airline%20Insights.html
 
 The report demonstrates:
 
