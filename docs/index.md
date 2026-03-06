@@ -203,7 +203,7 @@ Each document outlines structural intent, KPI logic, and governance enforcement 
 
 ## 📄 Published Artifact
 
-**[Airline Insights (PDF)](reports/Airline Insights.pdf)**  
+**[Airline Insights](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/reports/Airline%20Insights.pdf)**  
 
 Consolidated output of the federated insight model.
 
