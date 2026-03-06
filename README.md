@@ -108,9 +108,7 @@ This model enables:
 
 A fully interactive Power BI dashboard is available via GitHub Pages.
 
-**View the dashboard:**
-
-👉 https://awesomeanil.github.io/Federated-Insights-Case-Study/Airline%20Insights.html
+[![Launch Dashboard](https://img.shields.io/badge/Launch-Live_Dashboard-blue?style=for-the-badge)](https://awesomeanil.github.io/Federated-Insights-Case-Study/Airline%20Insights.html)
 
 The report demonstrates:
 
