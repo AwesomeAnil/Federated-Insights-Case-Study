@@ -1,5 +1,5 @@
 
-![Project Banner](docs/Federated_Insights_banner.png)
+![Project Banner](Federated_Insights_banner.png)
 # ✈️ Federated Enterprise Analytics  
 ## 🏛️ Governance-Driven Insight Operating Model — Executive Brief
 
