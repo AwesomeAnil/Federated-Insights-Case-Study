@@ -1,301 +1,372 @@
-![Project Banner](docs/Federated_Insights_banner.png)
-# ✈️ Federated Enterprise Analytics — Governance-Driven Operating Model
+![Banner](docs/Federated_Insights_banner.png)
 
-![MS Fabric](https://img.shields.io/badge/MS_Fabric-Analytics-blue)
-![Cloud](https://img.shields.io/badge/Cloud-Architecture-blue)
+# ✈️ Enterprise Airline Analytics
+
+## Federated Analytics & Governance Operating Model
+
+![MS Fabric](https://img.shields.io/badge/MS_Fabric-Lakehouse-blue)
 ![Power BI](https://img.shields.io/badge/PowerBI-Semantic_Model-yellow)
-![Enterprise Analytics](https://img.shields.io/badge/Enterprise-Analytics-darkgreen)
-![Federated Insights](https://img.shields.io/badge/Federated-Insights-purple)
-![Operating Model](https://img.shields.io/badge/Operating-Model-grey)
-![Documentation](https://img.shields.io/badge/Documentation-Architecture-lightgrey)
-![Centre of Excellence](https://img.shields.io/badge/CoE-Analytics-blueviolet)
+![Delta Tables](https://img.shields.io/badge/Delta-ACID_Persistence-informational)
 ![Governance](https://img.shields.io/badge/Governance-KPI_Control-red)
-![KPI Registry](https://img.shields.io/badge/KPI-Registry-orange)
-![Metric Definitions](https://img.shields.io/badge/Metric-Definitions-teal)
-
-
-## 🧭 Why Federated Insights?
-
-Modern enterprises do not fail because they lack data.  
-They fail because they lack governed interpretation of data.
-
-Dashboards proliferate.  
-Definitions drift.  
-Domains operate in silos.  
-KPIs become negotiable.
-
-Executive confidence erodes.
-
-This repository does not showcase dashboards.
-
-It demonstrates a governed federated analytics operating model designed to prevent those failures.
-
-**Federated Insights addresses this problem.**
-
-It is an analytics operating model where:
-
-- Performance domains (Executive, Network, Commercial, Operational) are structurally separated  
-- KPIs are centrally certified and governed  
-- Metric definitions are standardized and transparent  
-- Governance operates across domains rather than inside them  
-
-Federation does not mean decentralization.  
-It means controlled domain autonomy under shared governance.
-
-This repository demonstrates how a Centre of Excellence (CoE) can implement a federated insight model with certification discipline and semantic control.
-
-
+![Federated Analytics](https://img.shields.io/badge/Federated-Operating_Model-purple)
+![Analytics CoE](https://img.shields.io/badge/Analytics-Centre_of_Excellence-blueviolet)
 
 ---
 
-## 🧭 What Federated Insights Really Means
+# 🧭 Project Overview
 
-Federated insights is **not decentralization**.
+This repository simulates a **governed federated analytics environment** for an airline enterprise.
 
-It is **controlled autonomy**.
+It demonstrates how a centralized **Analytics Centre of Excellence (CoE)** can enable domain autonomy while maintaining **enterprise-wide KPI consistency, governance discipline, and semantic integrity**.
 
-Each enterprise domain — Executive, Network, Commercial, Operational — retains analytical depth and domain expertise.
+The project models a realistic analytics environment spanning:
 
-But no domain is allowed to redefine performance independently.
+* Executive performance monitoring
+* Route and network profitability analysis
+* Customer and commercial intelligence
+* Operational reliability diagnostics
+* KPI governance oversight
 
-All insights resolve to:
+The objective is not to showcase dashboards alone.
 
-- A certified KPI registry  
-- Clearly defined ownership  
-- Explicit data stewardship  
-- Enforced grain discipline  
-- Transparent lineage  
-- SLA-aligned freshness controls  
-
-Federation without governance becomes fragmentation.  
-Governance without federation becomes bureaucracy.
-
-This model balances both.
-
-## 🏛️ The Federated Operating Model
-
-This is a **layered decision system** — not a report stack.
-
-
-
-### 📢 What This Signals
-
-- Insights are layered intentionally  
-- Domains are separated by responsibility  
-- Governance is explicit — not implied  
-- Metrics anchor to a certified semantic foundation  
-
-This is how an Analytics Centre of Excellence scales insight without sacrificing control.
-
-
+It demonstrates **how enterprise analytics systems are designed, governed, and scaled in federated organizations.**
 
 ---
 
-## 🛡️ Governance Is an Overlay — Not a Page
+# 🎯 The Enterprise Problem
 
-In many organizations, governance appears as a compliance document.
+Large organizations rarely fail because they lack dashboards.
 
-Here, governance is operationalized.
+They fail because they lack **consistent definitions of performance**.
 
-It overlays every domain simultaneously.
+In federated environments:
 
+* Finance calculates margin one way
+* Commercial calculates margin another
+* Operations optimizes different metrics entirely
 
+Over time this leads to:
 
-### 📢 What This Demonstrates
+* conflicting executive reports
+* declining trust in analytics
+* inconsistent decisions
 
-- KPI Owners (functional heads) retain definitional authority  
-- Data Stewards (lead analysts) operationalize and safeguard metric integrity  
-- Certification status is visible  
-- Refresh SLAs are tracked  
-- Grain alignment is enforced  
-- Source lineage is transparent  
+This repository demonstrates a **governance-driven operating model** that prevents metric drift while preserving domain autonomy.
 
-Governance is embedded into the insight lifecycle — not reviewed after the fact.
+---
 
-----
+# 🏛️ Federated Analytics Operating Model
 
-## 🏗️ Federated Insight Model (Structural View)
+The architecture separates domain insight layers while enforcing centralized governance.
 
-This model separates performance domains while anchoring them to centralized governance and a certified metric foundation.
+Executive → Network → Commercial → Operations
+
+All domains resolve to a **certified KPI registry**.
 
 ```mermaid
 flowchart TB
 
-    EXEC[Executive Performance<br/>Enterprise Health & Risk Exposure]
+EXEC[Executive Performance]
 
-    ROUTE[Network Performance<br/>Route Profitability & Volatility]
+ROUTE[Network Analytics]
 
-    COMM[Commercial Intelligence<br/>Demand Quality & Yield Strength]
+COMM[Commercial Intelligence]
 
-    OPS[Operational Stability<br/>Execution Reliability & Disruption]
+OPS[Operational Insight]
 
-    GOV[Governance Oversight<br/>Certification • Ownership • Grain Discipline]
+GOV[Governance Oversight]
 
-    REG[Certified Metric Registry<br/>Definitions • Logic • Status]
+REG[Certified KPI Registry]
 
-    EXEC --> ROUTE
-    ROUTE --> COMM
-    COMM --> OPS
-    OPS --> GOV
-    GOV --> REG
+EXEC --> ROUTE
+ROUTE --> COMM
+COMM --> OPS
+OPS --> GOV
+GOV --> REG
 ```
 
+This model enables:
 
-
-
-### 📢 Board-Level Signal
-
-- Insight is layered and domain-specific  
-- Governance is explicit and structured  
-- Metrics are anchored to a certified registry  
-- The model prevents cross-domain ambiguity  
-
-This is not a collection of dashboards.  
-It is a governed analytics ecosystem.
-
-
+* domain specialization
+* KPI consistency
+* executive trust
+* scalable analytics governance
 
 ---
 
-## 🛡️ Governance Overlay Model
+# 📊 Live Interactive Dashboard
 
-Governance does not sit at the end of reporting.  
-It operates across all insight layers simultaneously.
+A fully interactive Power BI dashboard is available via GitHub Pages.
 
-```mermaid
-flowchart LR
+**View the dashboard:**
 
-    subgraph PERFORMANCE_LAYERS
-        EXEC[Executive]
-        ROUTE[Network]
-        COMM[Commercial]
-        OPS[Operational]
-    end
+👉 https://awesomeanil.github.io/Federated-Insights-Case-Study/
 
-    GOV[Central Governance<br/>KPI Certification • Ownership • Grain Control]
+The report demonstrates:
 
-    REG[Semantic Registry<br/>Certified Definitions & Calculation Logic]
+* Executive performance monitoring
+* Route profitability diagnostics
+* Customer segmentation insights
+* Operational reliability analysis
+* KPI governance visibility
 
-    GOV --- EXEC
-    GOV --- ROUTE
-    GOV --- COMM
-    GOV --- OPS
+---
 
-    REG --> GOV
+# 📄 Published Dashboard Export
+
+A static export of the Power BI report is available:
+
+[Airline Insights PDF](reports/Airline%20Insights.pdf)
+
+This file provides a **snapshot of the federated analytics environment**.
+
+---
+
+# 🧠 Enterprise Architecture
+
+The repository models a modern analytics stack built on **Microsoft Fabric**.
+
+Architecture flow:
+
+Synthetic Data → Lakehouse → Delta Tables → Semantic Model → Governed Reporting
+
+Key architectural principles:
+
+* Lakehouse-based storage
+* Delta table persistence
+* governed semantic modeling
+* certified KPI registry
+* federated domain reporting
+
+Detailed architecture documentation:
+
+[Architecture Overview](docs/airline_architecture_overview.md)
+
+---
+
+# 🧱 Governed Semantic Model
+
+The semantic layer integrates commercial demand, operational execution, and financial cost structure into a unified enterprise model.
+
+### Core fact tables
+
+* Fact_Bookings
+* Fact_Flights
+* Fact_Financials
+
+### Supporting dimensions
+
+* Dim_Date
+* Dim_Route
+* Dim_FareClass
+* Dim_CustomerSegment
+* Dim_Aircraft
+* Dim_KPI_Definitions
+
+Full semantic model documentation:
+
+[Semantic Model Documentation](docs/airline_semantic_model.md)
+
+---
+
+# 📊 Dashboard Architecture
+
+The analytics environment is structured as **five domain dashboards**.
+
+### Executive Dashboard
+
+Enterprise performance monitoring.
+
+**Key metrics**
+
+* Revenue
+* Route Profit
+* Profit Margin
+* Demand Momentum
+* Forecast Accuracy
+
+---
+
+### Route & Network Analytics
+
+Supports network planning and fleet allocation.
+
+**Key insights**
+
+* route profitability
+* margin compression
+* demand efficiency
+* volatility risk
+
+---
+
+### Customer & Commercial Intelligence
+
+Analyzes revenue quality and segmentation behavior.
+
+**Key insights**
+
+* premium revenue share
+* yield per passenger
+* booking lead time
+* segment demand shifts
+
+---
+
+### Operational Insights
+
+Monitors reliability and execution stability.
+
+**Key insights**
+
+* load factor
+* on-time departure
+* cancellation rate
+* disruption patterns
+
+---
+
+### KPI Governance Dashboard
+
+Simulates a mature **Analytics CoE governance layer**.
+
+Tracks:
+
+* KPI certification coverage
+* ownership accountability
+* semantic grain alignment
+* registry integrity
+
+---
+
+# 🛡️ KPI Governance Framework
+
+Federated analytics requires structural governance.
+
+Each KPI in the model declares:
+
+* Business definition
+* Calculation logic
+* Owner
+* Data steward
+* Calculation grain
+* Refresh SLA
+* Quality rule status
+* Certification status
+
+Lifecycle:
+
+```
+Draft → Under Review → Certified → Deprecated
 ```
 
-### 📢 Board-Level Signal
+Governance documentation:
 
-- Governance is cross-cutting, not isolated  
-- Every domain operates under certified KPI control  
-- Ownership and calculation grain are transparent  
-- Semantic integrity is enforced centrally  
-
-This model reflects how mature Analytics CoEs operate in large enterprises.
-
-
+[Governance Operating Model](docs/GOVERNANCE_OPERATING_MODEL.md)
 
 ---
 
+# ⚙️ Platform & Technology Stack
 
+| Layer           | Technology                 |
+| --------------- | -------------------------- |
+| Data Generation | Python (Google Colab)      |
+| Storage         | Microsoft Fabric Lakehouse |
+| Persistence     | Delta Tables               |
+| Transformation  | Fabric Dataflows           |
+| Semantic Model  | Power BI Desktop           |
+| Reporting       | Power BI                   |
+| Documentation   | GitHub Pages               |
 
-## 🔄 Insight Consumption Flow
+---
 
-Federated insights follow a structured decision logic from enterprise health to operational control — validated by governance.
+# 📂 Repository Structure
 
-```mermaid
-flowchart LR
+```
+data/
+   Dimension and fact tables
+   Synthetic airline dataset
 
-    EXEC[Enterprise Health Question]
+docs/
+   Architecture documentation
+   Governance framework
+   Dashboard design specifications
+   Presentation narrative
 
-    ROUTE[Network Diagnostic Analysis]
+reports/
+   Exported Power BI report
 
-    COMM[Commercial Performance Refinement]
-
-    OPS[Operational Stability Assessment]
-
-    GOV[Governance Validation<br/>Certified KPI Confirmation]
-
-    EXEC --> ROUTE
-    ROUTE --> COMM
-    COMM --> OPS
-    OPS --> GOV
+README.md
+   Project overview
 ```
 
-### 📢 Board-Level Signal
+---
 
-- Executive questions drive structured diagnostic layers  
-- Insights move from strategic to operational depth  
-- Governance validates conclusions before decision execution  
+# 🧪 Synthetic Dataset
 
-## 🔄 Structured Insight Consumption
+All data used in this repository was **programmatically generated using Python**.
 
-Insights move intentionally from strategy to validation.
+The dataset simulates:
 
-This flow prevents:
+* airline bookings
+* route-level operations
+* financial cost structure
+* customer segmentation behavior
+* KPI governance registry
 
-- Cross-domain metric conflicts  
-- Shadow KPI creation  
-- Inconsistent margin calculations  
-- Uncertified executive reporting  
+Synthetic data ensures:
 
-It enforces disciplined analytical reasoning.
-
-
+* realistic analytical patterns
+* reproducibility
+* safe public sharing
 
 ---
 
-## 📚 Governance Depth Implemented in This Repository
+# 📖 Suggested Reading Path
 
-This project operationalizes governance through:
+### Quick Overview
 
-- Explicit separation of KPI Owner vs Data Steward  
-- Certification tracking and coverage metrics  
-- Data quality rule flags  
-- Freshness SLA monitoring aligned to fact table cutoffs  
-- Grain validation (Daily vs Monthly vs Composite)  
-- Source table transparency  
-- Calculation layer classification (Fact / Derived / Composite)  
-
-It simulates how a mature CoE manages semantic risk.
-
-
+1️⃣ Executive Brief
+2️⃣ Interactive Dashboard
+3️⃣ Architecture Overview
 
 ---
 
-## 🏢 Why This Matters to Enterprise Leadership
+### Governance Deep Dive
 
-In federated environments:
-
-- Commercial teams optimize yield  
-- Finance protects margin  
-- Operations stabilizes execution  
-- Network teams manage capacity  
-
-Without governance, each domain can redefine performance.
-
-This model ensures:
-
-**One definition of revenue.**  
-**One definition of margin.**  
-**One certified source of truth.**
-
-At scale.
-
-
+1️⃣ Governance Framework
+2️⃣ KPI Registry Model
+3️⃣ Contribution Process
 
 ---
 
-## 🚀 What This Repository Represents
+### Technical Architecture Review
 
-This is not a technical infrastructure blueprint.
+1️⃣ Configuration Guide
+2️⃣ Semantic Model
+3️⃣ Dashboard Architecture
 
-It is an operating model demonstration of:
+---
 
-- Federated analytics design  
-- Semantic governance discipline  
-- Cross-domain control architecture  
-- Enterprise KPI certification strategy  
-- Structured decision-layer logic  
+# 👤 Author
 
-It reflects how modern analytics leaders build systems that scale insight without sacrificing integrity.
+**Anil Jacob**
+
+Analytics & Governance Leader
+Microsoft Fabric | Semantic Modeling | Enterprise BI Architecture
+
+GitHub
+https://github.com/AwesomeAnil
+
+LinkedIn
+https://linkedin.com/in/anil-jacobs
+
+---
+
+# 💡 Closing Perspective
+
+Federated analytics enables domain expertise and faster decisions.
+
+But without governance, federation becomes fragmentation.
+
+This project demonstrates how **semantic discipline, KPI certification, and clear ownership structures allow federated analytics to scale responsibly within enterprise environments.**
