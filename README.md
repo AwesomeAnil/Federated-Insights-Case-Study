@@ -447,24 +447,24 @@ They track:
 ### Quick Overview
 
 1️⃣ [Executive Brief](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/EXEC_1PAGER.md)
-2️⃣ Interactive Dashboard
-3️⃣ Architecture Overview
+2️⃣ [Interactive Dashboard](https://awesomeanil.github.io/Federated-Insights-Case-Study/Airline%20Insights.html)
+3️⃣ [Architecture Overview](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/airline_architecture_overview.md)
 
 ---
 
 ### Governance Deep Dive
 
-1️⃣ Governance Framework
-2️⃣ KPI Registry Model
-3️⃣ Contribution Process
+1️⃣ [Governance Framework](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/GOVERNANCE_OPERATING_MODEL.md)
+2️⃣ [KPI Governance](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/kpi_governance_report_design.md)
+3️⃣ [Contributing](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/Contributing.md)
 
 ---
 
 ### Technical Architecture Review
 
-1️⃣ Configuration Guide
-2️⃣ Semantic Model
-3️⃣ Dashboard Architecture
+1️⃣ [Configuration Guide](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/Configuration.md)
+2️⃣ [Semantic Model](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/airline_semantic_model.md)
+3️⃣ [Dashboard Architecture](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/dashboard_architecture_overview.md)
 
 ---
 
