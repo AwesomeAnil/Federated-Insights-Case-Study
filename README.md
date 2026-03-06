@@ -312,25 +312,135 @@ README.md
 
 ---
 
-# 🧪 Synthetic Dataset
+# 🧪 Synthetic Data Model
 
-All data used in this repository was **programmatically generated using Python**.
+The repository includes a synthetic airline analytics dataset designed to simulate a realistic enterprise reporting environment.
 
-The dataset simulates:
+The dataset was programmatically generated using Python in Google Colab to model common airline operational and commercial dynamics while remaining safe for public sharing.
 
-* airline bookings
-* route-level operations
-* financial cost structure
-* customer segmentation behavior
-* KPI governance registry
+The dataset supports analysis across three enterprise domains:
 
-Synthetic data ensures:
+• Commercial demand and revenue  
+• Operational flight performance  
+• Financial cost structure  
 
-* realistic analytical patterns
-* reproducibility
-* safe public sharing
+The model intentionally mirrors a typical airline analytics warehouse.
 
 ---
+
+## Fact Tables
+
+### Fact_Bookings
+Transaction-level booking data.
+
+Grain: **One row per booking transaction**
+
+Contains:
+
+- Booking_Date
+- Route_ID
+- Fare_Class_ID
+- Segment_ID
+- Tickets_Sold
+- Total_Revenue
+
+Supports analysis of:
+
+- revenue trends
+- customer segmentation
+- premium cabin demand
+- booking lead-time behavior
+
+---
+
+### Fact_Flights
+Operational flight performance.
+
+Grain: **One row per flight per route per day**
+
+Contains:
+
+- Flight_Date
+- Route_ID
+- Aircraft_Type
+- Seats_Capacity
+- Seats_Sold
+- Departure_Delay_Minutes
+- Cancelled_Flag
+
+Supports analysis of:
+
+- load factor
+- operational reliability
+- disruption patterns
+- execution stability
+
+---
+
+### Fact_Financials
+Monthly cost structure for each route.
+
+Grain: **Route × Month**
+
+Contains:
+
+- Fuel_Cost
+- Staff_Cost
+- Aircraft_Cost
+- Maintenance_Cost
+- Airport_Fees
+- Total_Cost
+
+Supports analysis of:
+
+- route profitability
+- cost volatility
+- fuel exposure
+- margin compression
+
+---
+
+## Dimension Tables
+
+The dataset includes conformed dimensions used across the analytical domains.
+
+| Dimension | Purpose |
+|---------|--------|
+| Dim_Date | calendar hierarchy and seasonality |
+| Dim_Route | origin-destination network |
+| Dim_FareClass | cabin class structure |
+| Dim_CustomerSegment | passenger segmentation |
+| Dim_Aircraft | fleet capacity characteristics |
+| Dim_Airport | airport reference data |
+
+These dimensions ensure consistent slicing across commercial, operational, and financial analyses.
+
+---
+
+## Governance Metadata
+
+The dataset also includes governance metadata tables used by the KPI registry.
+
+Examples include:
+
+- Dim_KPI_Definitions
+- Dim_KPI_Def_Gov_Align
+- Dim_KPI_Def_Gov_Real
+
+These tables simulate the **governed KPI registry used by the Analytics Centre of Excellence**.
+
+They track:
+
+- metric definitions
+- ownership
+- stewardship
+- certification status
+- calculation grain
+- refresh SLA
+
+---
+
+
 
 # 📖 Suggested Reading Path
 
