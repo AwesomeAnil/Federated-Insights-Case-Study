@@ -1,3 +1,8 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+mermaid.initialize({ startOnLoad: true });
+</script>
+
 ![Project Banner](docs/Federated_Insights_banner.png)
 # ✈️ Federated Enterprise Analytics  
 ## 🏛️ Governance-Driven Insight Operating Model — Executive Brief
