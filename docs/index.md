@@ -174,13 +174,13 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 - **[Airline Architecture Overview](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/airline_architecture_overview.md)**  
   Domain-layered insight model.
 
-- **[Airline Semantic Model](airline_semantic_model.md)**  
+- **[Airline Semantic Model](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/airline_semantic_model.md)**  
   Fact / Derived / Composite logic and modeling discipline.
 
-- **[Dashboard Architecture Overview](dashboard_architecture_overview.md)**  
+- **[Dashboard Architecture Overview](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/dashboard_architecture_overview.md)**  
   Federated insight layering across executive and domain reports.
 
-- **[Measure Folder Architecture](measure_folder_architecture.md)**  
+- **[Measure Folder Architecture](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/measure_folder_architecture.md)**  
   Organized semantic measure structuring.
 
 
@@ -189,11 +189,11 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 
 ### 📊 Report Design Documentation
 
-- [Executive Dashboard Design](executive_dashboard_design.md)
-- [Route Analytics Report Design](route_analytics_report_design.md)  
-- [Operational Insights Report Design](operational_insights_report_design.md)
-- [Customer Segmentation Report Design](customer_segmentation_report_design.md)
-- [KPI Governance Report Design](kpi_governance_report_design.md) 
+- [Executive Dashboard Design](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/executive_dashboard_design.md)
+- [Route Analytics Report Design](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/route_analytics_report_design.md)  
+- [Operational Insights Report Design](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/operational_insights_report_design.md)
+- [Customer Segmentation Report Design](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/customer_segmentation_report_design.md)
+- [KPI Governance Report Design](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/kpi_governance_report_design.md) 
 
 Each document outlines structural intent, KPI logic, and governance enforcement at report level.
 
@@ -203,7 +203,7 @@ Each document outlines structural intent, KPI logic, and governance enforcement 
 
 ## 📄 Published Artifact
 
-**Airline Insights (PDF)**  
+**[Airline Insights (PDF)](reports/Airline Insights.pdf)**  
 
 Consolidated output of the federated insight model.
 
@@ -215,25 +215,25 @@ Consolidated output of the federated insight model.
 
 ### 🔹 Quick Executive Review (5 Minutes)
 
-1. [Executive 1-Pager](EXEC_1PAGER.md)  
-2. [Presentation](PRESENTATION.md)  
-3. [Governance Operating Model (Sections 1–5)](GOVERNANCE_OPERATING_MODEL.md)  
+1. [Executive 1-Pager](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/EXEC_1PAGER.md)  
+2. [Presentation](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/PRESENTATION.md)  
+3. [Governance Operating Model (Sections 1–5)](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/GOVERNANCE_OPERATING_MODEL.md)  
 
 ---
 
 ### 🔹 Governance Deep Dive
 
-1. [Governance Operating Model](GOVERNANCE_OPERATING_MODEL.md)  
-2. [Contributing Guide](Contributing.md)  
-3. [Configuration Guide](Configuration.md)  
+1. [Governance Operating Model](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/GOVERNANCE_OPERATING_MODEL.md)  
+2. [Contributing Guide](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/Contributing.md)  
+3. [Configuration Guide](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/Configuration.md)  
 
 ---
 
 ### 🔹 Technical Architecture Review
 
-1. [Configuration Guide](Configuration.md)  
-2. [Airline Semantic Model](airline_semantic_model.md)  
-3. [Dashboard Architecture Overview](dashboard_architecture_overview.md)  
+1. [Configuration Guide](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/Configuration.md)  
+2. [Airline Semantic Model](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/airline_semantic_model.md)  
+3. [Dashboard Architecture Overview](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/dashboard_architecture_overview.md)  
 
 
 
