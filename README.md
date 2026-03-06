@@ -446,7 +446,7 @@ They track:
 
 ### Quick Overview
 
-1️⃣ Executive Brief
+1️⃣ [Executive Brief](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/EXEC_1PAGER.md)
 2️⃣ Interactive Dashboard
 3️⃣ Architecture Overview
 
