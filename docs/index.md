@@ -159,10 +159,10 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 
 ### 📢 Executive & Strategic Narrative
 
-- **[Executive 1-Pager](EXEC_1PAGER.md)**  
+- **[Executive 1-Pager](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/EXEC_1PAGER.md)**  
   Board-ready summary of federated governance model.
 
-- **[Presentation](PRESENTATION.md)**  
+- **[Presentation](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/PRESENTATION.md)**  
   Structured narrative walkthrough of the operating model.
 
 
@@ -171,7 +171,7 @@ The full federated analytics & insights report is published in Microsoft Fabric.
 
 ### 🧠 Architecture & Semantic Modeling
 
-- **[Airline Architecture Overview](airline_architecture_overview.md)**  
+- **[Airline Architecture Overview](https://github.com/AwesomeAnil/Federated-Insights-Case-Study/blob/main/docs/airline_architecture_overview.md)**  
   Domain-layered insight model.
 
 - **[Airline Semantic Model](airline_semantic_model.md)**  
